@@ -8,9 +8,9 @@ Este repositorio contiene el **Trabajo Práctico Integrador** para la **Diplomat
 ## 👥 Miembros del Equipo
 * ANA LAURA CAO
 * FEDERICO TRANI
-* MARIA PIA PEDROSO[cite: 23]
-* HERNAN RODRIGUES NEVES[cite: 23]
-* ESTEFANIA SANGUINETTI[cite: 23]
+* MARIA PIA PEDROSO
+* HERNAN RODRIGUES NEVES
+* ESTEFANIA SANGUINETTI
 
 ---
 
@@ -25,12 +25,12 @@ El sobrepeso ha incrementado notablemente en las últimas décadas a nivel mundi
 
 ## 🛠️ Librerías Principales
 El proyecto utiliza Python y las siguientes librerías para el análisis y modelado:
-* **Manipulación y Análisis:** `pandas`, `numpy`, `time`[cite: 23]
-* **Visualización:** `matplotlib`, `seaborn`[cite: 23]
+* **Manipulación y Análisis:** `pandas`, `numpy`, `time`
+* **Visualización:** `matplotlib`, `seaborn`
 * **Machine Learning (`scikit-learn`):** 
-  * Preprocesamiento: `StandardScaler`, `OneHotEncoder`, `ColumnTransformer`, `Pipeline`, `SimpleImputer`[cite: 23]
-  * Modelos: `LogisticRegression`, `DecisionTreeClassifier`, `RandomForestClassifier`[cite: 23]
-  * Evaluación: `accuracy_score`, `confusion_matrix`, `classification_report`, `roc_auc_score`, `f1_score`, etc.[cite: 23]
+  * Preprocesamiento: `StandardScaler`, `OneHotEncoder`, `ColumnTransformer`, `Pipeline`, `SimpleImputer`
+  * Modelos: `LogisticRegression`, `DecisionTreeClassifier`, `RandomForestClassifier`
+  * Evaluación: `accuracy_score`, `confusion_matrix`, `classification_report`, `roc_auc_score`, `f1_score`, etc.
 
 ---
 
@@ -41,8 +41,8 @@ Puedes ejecutar este proyecto de forma interactiva mediante Google Colab o local
 ### Opción 1: Ejecutar en Google Colab (Recomendado)
 1. Abre el notebook del proyecto en Google Colab.
 2. Asegúrate de tener el archivo del dataset (`ObesityDataSet.csv` o `ObesityDataSet_raw_and_data_sinthetic.csv`) disponible, ya sea:
-   * Subiéndolo directamente al entorno de ejecución de Colab[cite: 23].
-   * Conectando tu Google Drive y ubicando el archivo dentro de la estructura de carpetas configurada en el script (`UTN_Grupo 30`)[cite: 23].
+   * Subiéndolo directamente al entorno de ejecución de Colab.
+   * Conectando tu Google Drive y ubicando el archivo dentro de la estructura de carpetas configurada en el script (`UTN_Grupo 30`)
 3. Ejecuta las celdas secuencialmente desde la **Sección 0** (Configuración Inicial) hasta finalizar el entrenamiento y evaluación de los modelos.
 
 ### Opción 2: Ejecutar Localmente
