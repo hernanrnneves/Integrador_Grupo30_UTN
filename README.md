@@ -15,17 +15,17 @@ Este repositorio contiene el **Trabajo Práctico Integrador** para la **Diplomat
 ---
 
 ## 📊 Contexto y Dataset
-El sobrepeso ha incrementado notablemente en las últimas décadas a nivel mundial. Este dataset recopila información real de hábitos de vida de personas de **Perú, Colombia y México**, junto con sus niveles de obesidad correspondientes[cite: 23].
+El sobrepeso ha incrementado notablemente en las últimas décadas a nivel mundial. Este dataset recopila información real de hábitos de vida de personas de **Perú, Colombia y México**, junto con sus niveles de obesidad correspondientes.
 
-* **Fuente del Dataset:** [UCI Machine Learning Repository - Estimation of obesity levels based on eating habits and physical condition (DOI: 10.24432/C5H31Z)](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition)[cite: 23].
-* **Dimensiones:** 2,111 filas y 17 columnas[cite: 23].
-* **Variable objetivo:** `NObeyesdad` (Clasificada en 7 niveles: Bajo peso, Peso normal, Sobrepeso Nivel I/II, y Obesidad Tipo I/II/III)[cite: 23].
+* **Fuente del Dataset:** [UCI Machine Learning Repository - Estimation of obesity levels based on eating habits and physical condition (DOI: 10.24432/C5H31Z)](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition).
+* **Archivo utilizado:** `ObesityDataSet_raw_and_data_sinthetic.xlsx` (incluido en la raíz del repositorio).
+* **Variable objetivo:** `NObeyesdad` (Clasificada en 7 niveles: Bajo peso, Peso normal, Sobrepeso Nivel I/II, y Obesidad Tipo I/II/III).
 
 ---
 
 ## 🛠️ Librerías Principales
 El proyecto utiliza Python y las siguientes librerías para el análisis y modelado:
-* **Manipulación y Análisis:** `pandas`, `numpy`, `time`
+* **Manipulación y Análisis:** `pandas`, `numpy`, `time`, `openpyxl`
 * **Visualización:** `matplotlib`, `seaborn`
 * **Machine Learning (`scikit-learn`):** 
   * Preprocesamiento: `StandardScaler`, `OneHotEncoder`, `ColumnTransformer`, `Pipeline`, `SimpleImputer`
@@ -36,13 +36,11 @@ El proyecto utiliza Python y las siguientes librerías para el análisis y model
 
 ## 🚀 Instrucciones para Correr el Proyecto
 
-Puedes ejecutar este proyecto de forma interactiva mediante Google Colab o localmente clonando este repositorio.
+Puedes ejecutar este proyecto de forma interactiva mediante Google Colab o localmente. Como el dataset ya se encuentra en el repositorio, se leerá automáticamente.
 
 ### Opción 1: Ejecutar en Google Colab (Recomendado)
-1. Abre el notebook del proyecto en Google Colab.
-2. Asegúrate de tener el archivo del dataset (`ObesityDataSet.csv` o `ObesityDataSet_raw_and_data_sinthetic.csv`) disponible, ya sea:
-   * Subiéndolo directamente al entorno de ejecución de Colab.
-   * Conectando tu Google Drive y ubicando el archivo dentro de la estructura de carpetas configurada en el script (`UTN_Grupo 30`)
+1. Abre el notebook `TP_final_UTN.ipynb` en Google Colab (puedes abrirlo directamente desde el botón de GitHub en Colab).
+2. Asegúrate de que el archivo `ObesityDataSet_raw_and_data_sinthetic.xlsx` esté en la misma ruta de trabajo que el notebook.
 3. Ejecuta las celdas secuencialmente desde la **Sección 0** (Configuración Inicial) hasta finalizar el entrenamiento y evaluación de los modelos.
 
 ### Opción 2: Ejecutar Localmente
